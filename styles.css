@@ -51,7 +51,7 @@
 	bottom: 10%;
 	border-top: 1px solid rgba(0, 0, 0, 0.25);
 	padding: 20px;
-	font-size: 10px;
+	font-size: 14px;
 	overflow-y:auto;
 	/*
 	column-count:2;
@@ -68,14 +68,12 @@
 	height:66%;
 	padding: 20px;
 	background:rgba(0,125,188,0.05);
-	font-size:14px;
+	font-size:18px;
 	line-height:200%;
 	overflow-y:scroll;
 }
-
-
 h1 {
-	font-size: 12px;
+	font-size: 16px;
 	margin: 0;
 	font-weight: 700;
 	line-height: 20px;
@@ -104,7 +102,7 @@ a:hover {
 
 ul {
 	list-style-type: none;
-	font-size:12px;
+	font-size:14px;
 	margin: 0;
 	padding: 20px;
 	line-height: 250%;
@@ -113,6 +111,16 @@ ul {
 li {
   cursor:pointer;
 }
+
+.elementToFadeIn {
+    animation: fader 1s linear forwards;
+}
+
+@keyframes fader{
+    from {opacity:0;}
+    to {opacity:1}
+}
+
  ::-webkit-scrollbar {
 	width: 3px;
 	height: 3px;
