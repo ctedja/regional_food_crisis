@@ -31,6 +31,21 @@
 	object-fit:cover;
 	overflow:hidden;
 }
+
+.status{
+    position:absolute;
+	left: 57.5%;
+	width:42.5%;
+	top: 0;
+	height:5%;
+	padding: 20px;
+	font-size:12px;
+    font-weight:700;
+	line-height:200%;
+    text-align: right;
+	overflow:hidden;
+}
+
 #map {
 	position: absolute;
 	left: 57.5%;
@@ -39,9 +54,11 @@
 	height:34%;
 	bottom: 0;
 }
+
 .mapboxgl-ctrl mapboxgl-ctrl-attrib {
 	color: #ffffff00;
 }
+
 .narrative {
 	position:absolute;
 	left:15%;
