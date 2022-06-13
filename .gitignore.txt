@@ -4,3 +4,4 @@
 .data_entry.xlsx
 .conversion_script.r
 .countryDataTest.json
+.developer-config.xml
