@@ -85,10 +85,14 @@
 	height:66%;
 	padding: 20px;
 	background:rgba(0,125,188,0.05);
-	font-size:18px;
-	line-height:200%;
+	font-size:16px;
+    color: #007dbc;
+	line-height:150%;
 	overflow-y:scroll;
 }
+hr { display: block; height: 0px;
+    border: 0; border-top: 1px solid #b3d8eb;
+    margin: 1em 0; padding: 0; }
 h1 {
 	font-size: 16px;
 	margin: 0;
